@@ -69,7 +69,7 @@ export function HeroWestern({ groom, bride, date, hashtag }: Props) {
           transition={{ duration: 1.4, delay: 2.4 }}
           className="mt-12 flex justify-center items-center gap-2 md:gap-6 font-label text-[10px] theme-fg/60"
         >
-          <span>THALASSERY</span><span className="theme-accent">·</span>
+          <span>PADAPPARAMBA</span><span className="theme-accent">·</span>
           <span>KERALA</span><span className="theme-accent">·</span>
           <span>{date}</span>
         </motion.div>

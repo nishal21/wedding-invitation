@@ -101,7 +101,7 @@ export function HeroFusion({ groom, bride, date, hashtag }: Props) {
             className="flex items-center gap-3 mb-5 origin-left"
           ><br></br><br></br>
             <div className="h-px w-8 md:w-12" style={{ background: "var(--theme-accent)" }} />
-            <div className="font-label text-[10px] theme-fg">31.05.2026 · THALASSERY</div>
+            <div className="font-label text-[10px] theme-fg">31.05.2026 · PADAPPARAMBA</div>
           </motion.div>
 
           <motion.p
