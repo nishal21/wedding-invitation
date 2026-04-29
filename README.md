@@ -75,11 +75,27 @@ npm install
 
 ### 4. Update Meta Tags
 
-After deployment, update `index.html` with your actual URL:
+After deployment, update `index.html` with your actual details for social sharing:
 
 ```html
-<meta property="og:url" content="https://your-site.netlify.app/">
+<title>Your Names - Wedding Invitation</title>
+<meta name="title" content="Your Names - Wedding Invitation">
+<meta name="description" content="Your custom description here">
+
+<meta property="og:url" content="https://your-site.netlify.app">
+<meta property="og:title" content="Your Names - Wedding Invitation">
+<meta property="og:description" content="Your custom description here">
+<meta property="og:image" content="https://your-site.netlify.app/your-image.png">
 ```
+
+**What to update:**
+- `<title>` — Couple names
+- `og:title` — Couple names
+- `og:description` — Custom invitation description
+- `og:url` — Your actual Netlify deployment URL
+- `og:image` — Your actual Netlify deployment URL + `/inv.png` (must be absolute URL for social sharing)
+
+**Note:** Place your custom invitation image at `public/inv.png` for the social preview.
 
 ---
 
