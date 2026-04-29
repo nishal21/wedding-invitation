@@ -4,7 +4,7 @@
 const { neon } = require('@neondatabase/serverless');
 
 exports.handler = async function(event, context) {
-  const sql = neon(process.env.DATABASE_URL);
+  const sql = neon(process.env.VITE_DATABASE_URL);
 
   // GET - Fetch default theme
   if (event.httpMethod === 'GET') {
