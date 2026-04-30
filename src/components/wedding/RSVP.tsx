@@ -134,7 +134,7 @@ export function RSVP({ slug, guestName }: Props) {
                 <div className="font-display" style={{ fontSize: '2rem', color: 'var(--theme-fg)', minWidth: 48, textAlign: 'center' }}>{guests}</div>
                 <button
                   type="button"
-                  onClick={() => setGuests(Math.min(10, guests + 1))}
+                  onClick={() => setGuests(Math.min(100, guests + 1))}
                   style={{ width: 44, height: 44, borderRadius: '50%', border: '1px solid color-mix(in oklab, var(--theme-accent) 50%, transparent)', color: 'var(--theme-fg)', background: 'transparent', cursor: 'pointer', fontSize: 20 }}
                 >
                   +
